@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Web\\EmployeeRecordManagementSystem.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj",
+        "projectName": "EmployeeRecordManagementSystem.Data",
+        "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\Tihomir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tihomir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Model\\EmployeeRecordManagementSystem.Model.csproj": {
+                "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Model\\EmployeeRecordManagementSystem.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Model\\EmployeeRecordManagementSystem.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Model\\EmployeeRecordManagementSystem.Model.csproj",
+        "projectName": "EmployeeRecordManagementSystem.Model",
+        "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Model\\EmployeeRecordManagementSystem.Model.csproj",
+        "packagesPath": "C:\\Users\\Tihomir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tihomir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Service\\EmployeeRecordManagementSystem.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Service\\EmployeeRecordManagementSystem.Service.csproj",
+        "projectName": "EmployeeRecordManagementSystem.Service",
+        "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Service\\EmployeeRecordManagementSystem.Service.csproj",
+        "packagesPath": "C:\\Users\\Tihomir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tihomir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Web\\EmployeeRecordManagementSystem.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Web\\EmployeeRecordManagementSystem.Web.csproj",
+        "projectName": "EmployeeRecordManagementSystem.Web",
+        "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Web\\EmployeeRecordManagementSystem.Web.csproj",
+        "packagesPath": "C:\\Users\\Tihomir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tihomir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Data\\EmployeeRecordManagementSystem.Data.csproj"
+              },
+              "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Service\\EmployeeRecordManagementSystem.Service.csproj": {
+                "projectPath": "C:\\Users\\Tihomir\\source\\repos\\EmployeeRecordManagementSystem\\EmployeeRecordManagementSystem.Service\\EmployeeRecordManagementSystem.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

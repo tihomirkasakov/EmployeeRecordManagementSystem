@@ -1,0 +1,14 @@
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.csprojAssemblyReference.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.AssemblyInfoInputs.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.AssemblyInfo.cs
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.csproj.CoreCompileInputs.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.deps.json
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.pdb
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.pdb
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.pdb
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.csproj.CopyComplete
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Service\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Service.pdb

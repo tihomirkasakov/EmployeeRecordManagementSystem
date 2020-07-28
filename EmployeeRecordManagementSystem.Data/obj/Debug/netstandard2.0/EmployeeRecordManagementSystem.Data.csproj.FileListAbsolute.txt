@@ -1,0 +1,12 @@
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.deps.json
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.csprojAssemblyReference.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.AssemblyInfoInputs.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.AssemblyInfo.cs
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.pdb
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.pdb
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.csproj.CopyComplete
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Data\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Data.pdb

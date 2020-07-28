@@ -1,0 +1,9 @@
+﻿@model List<EmployeeRecordManagementSystem.Model.Dtos.EmployeeListDto>
+ 
+<ul id="employeeResult">
+    <li class="employeeTitle"><div>Name</div><div>Department</div><div>Job Title</div><div>Manager</div><div>Address</div></li>
+    @foreach (var item in Model)
+    {
+        <li class="employeeTitle" data-id="@item.Id" onclick="location.href='/Employee/Details?employeeId='+@item.Id;"><div>@item.Name</div><div>@item.Department</div><div>@item.JobTitle</div><div>@item.Manager</div><div>@item.Address</div></li>
+    }
+</ul>

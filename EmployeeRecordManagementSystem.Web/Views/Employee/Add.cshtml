@@ -1,0 +1,85 @@
+﻿@model EmployeeRecordManagementSystem.Web.Models.EmployeeViewModel
+@{
+    ViewData["Title"] = "Add";
+    int commentCount = 0;
+}
+
+<form method="post">
+    <div id="addEmployeeContainer">
+        <div>
+            <div>
+                <label>Name:</label>
+                <input type="text" class="form-control" name="Name" asp-for="Name" placeholder="" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div>
+                <label>Monthly Salary:</label>
+                <input type="text" class="form-control" name="MonthlySalary" asp-for="MonthlySalary" placeholder="" />
+                <span asp-validation-for="MonthlySalary" class="text-danger"></span>
+
+            </div>
+            <div>
+                <label>Joined on:</label>
+                <input type="text" class="form-control" name="JoinedOn" asp-for="JoinedOn" asp-format="{0:yyyy-MM-dd}" id="joinedOn" />
+                <span asp-validation-for="JoinedOn" class="text-danger"></span>
+
+            </div>
+            <div>
+                <label>Address:</label>
+                <input type="text" class="form-control" name="Address" asp-for="Address" placeholder="" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label>Department:</label>
+                <select class="form-control" asp-for="DepartmentId" asp-items="@(new SelectList(Model.Departments,"Id","Name"))"></select>
+            </div>
+            <div>
+                <label>JobTitle:</label>
+                <select class="form-control" asp-for="JobTitleId" asp-items="@(new SelectList(Model.JobTitles,"Id","Name"))"></select>
+
+            </div>
+            <div>
+                <label>Manager:</label>
+                <select class="form-control" asp-for="ManagerId" asp-items="@(new SelectList(Model.Employees,"Id","Name"))">
+                    <option></option>
+                </select>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+        @foreach (var comment in Model.Comments)
+        {
+            commentCount++;
+            <div class="commentContainer" data-nextindex="@(commentCount-1)">
+                <div class="form-group green-border-focus">
+                    <label>Comment:</label>
+                    @Html.TextAreaFor(x => x.Comments[commentCount - 1].Note, new { @class = "form-control", @rows = 3 })
+                    @if (Model.Comments.Count == commentCount)
+                    {
+                        <div class="form-group">
+                            <input class="btn btn-info addCommentBtn" style="float:right; margin-top:5px; margin-left:10px" type="button" value="Add Comment" />
+                            @Html.TextBoxFor(x => x.Comments[commentCount - 1].Author, new { @class = "form-control-sm", @style = "float:right; margin-top:10px;margin-left:10px" })
+                            <label style="float: right; margin-top: 10px;">Author:</label>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="form-group">
+                            <input class="btn btn-info removeCommentBtn" style="float: right; margin-top: 5px; margin-left: 10px" type="button" value="Remove Comment" />
+                            @Html.TextBoxFor(x => x.Comments[commentCount - 1].Author, new { @class = "form-control-sm", @style = "float:right; margin-top:10px;margin-left:10px" })
+                            <label style="float: right; margin-top: 10px;">Author:</label>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+        <div>
+            <input class="btn btn-success" style="margin-right:10px;" type="submit" asp-action="Add" asp-controller="Employee" name="name" value="Add" />
+            <a class="btn btn-info" href="/Home/Index">Back</a>
+        </div>
+    </div>
+</form>

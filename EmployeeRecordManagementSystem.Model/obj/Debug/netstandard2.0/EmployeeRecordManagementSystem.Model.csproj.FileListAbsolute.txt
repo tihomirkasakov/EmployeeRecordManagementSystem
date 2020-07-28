@@ -1,0 +1,9 @@
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.deps.json
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.csprojAssemblyReference.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.AssemblyInfoInputs.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.AssemblyInfo.cs
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\bin\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.pdb
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.csproj.CoreCompileInputs.cache
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.dll
+C:\Users\Tihomir\source\repos\EmployeeRecordManagementSystem\EmployeeRecordManagementSystem.Model\obj\Debug\netstandard2.0\EmployeeRecordManagementSystem.Model.pdb

@@ -1,0 +1,27 @@
+﻿@model List<EmployeeRecordManagementSystem.Model.Dtos.EmployeeListDto>
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div>
+    <h2 style="text-align:center">Employee management system</h2>
+    <div style="display:flex;margin:10px 0 10px 0">
+        <div style="width:20vw">
+            <a class="btn btn-info" href="/Employee/Add">Add Employee</a>
+        </div>
+        <div style="vertical-align:middle;">
+            <input id="searchText" type="text" class="form-control" name="name" value="" style="width:50vw; float:left; margin-right:10px;" placeholder="Search by Name, Department, Job Title, Manager, Address" />
+            <input id="searchBtn" class="btn btn-info" type="button" name="name" value="Search" />
+        </div>
+    </div>
+    @if (Model.Any())
+    {
+        <div id="resultContainer">
+            <partial name="/Views/Shared/_EmployeeListPartial.cshtml" model="@Model" />
+        </div>
+    }
+    else
+    {
+        <h3>Please add employee.</h3>
+    }
+</div>
